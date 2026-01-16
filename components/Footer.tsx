@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="flex justify-center gap-6 mb-6">
                         {[
                             { name: 'GitHub', href: '#', icon: '🔗' },
-                            { name: 'WhatsApp', href: 'https://wa.me/79991234567?text=Привет!%20Хочу%20обсудить%20проект', icon: '📱' },
+                            { name: 'WhatsApp', href: 'https://wa.me/79882086166?text=Привет!%20Хочу%20обсудить%20проект', icon: '📱' },
                             { name: 'LinkedIn', href: '#', icon: '💼' },
                         ].map((link) => (
                             <a
