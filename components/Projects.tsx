@@ -9,7 +9,7 @@ export default function Projects() {
             tech: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL'],
             features: ['Каталог товаров', 'Корзина', 'Платежи', 'Рейтинги'],
             gradient: 'from-blue-500/20 to-cyan-500/20',
-            link: '#',
+            link: 'https://github.com/medusajs/medusa',
         },
         {
             title: 'Task Management App',
@@ -17,7 +17,7 @@ export default function Projects() {
             tech: ['React', 'Firebase', 'Tailwind CSS', 'Framer Motion'],
             features: ['Real-time', 'Коллаборация', 'Уведомления', 'Аналитика'],
             gradient: 'from-purple-500/20 to-pink-500/20',
-            link: '#',
+            link: 'https://github.com/taigaio/taiga-front',
         },
         {
             title: 'Analytics Dashboard',
@@ -25,7 +25,7 @@ export default function Projects() {
             tech: ['Next.js', 'D3.js', 'Node.js', 'MongoDB'],
             features: ['Графики', 'Экспорт', 'Фильтры', 'API'],
             gradient: 'from-green-500/20 to-emerald-500/20',
-            link: '#',
+            link: 'https://github.com/plausible/analytics',
         },
     ]
 
@@ -38,7 +38,7 @@ export default function Projects() {
                 viewport={{ once: true }}
             >
                 <span className="text-blue-400 font-semibold text-sm">ПОРТФОЛИО</span>
-                <h2 className="text-4xl md:text-5xl font-bold mt-3 mb-12 pt-6">
+                <h2 className="text-4xl md:text-5xl font-bold mt-3 mb-16 md:mb-20 pt-6">
                     Избранные проекты
                 </h2>
 
@@ -88,6 +88,8 @@ export default function Projects() {
 
                             <a
                                 href={project.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-block text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors"
                             >
                                 Подробнее →
