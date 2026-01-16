@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 export default function Contact() {
     const contacts = [
         { icon: '📧', label: 'Email', value: 'hello@example.com', href: 'mailto:hello@example.com' },
-        { icon: '💼', label: 'GitHub', value: 'github.com/username', href: '#' },
+        { icon: '💼', label: 'GitHub', value: 'github.com/Magomed-Shabanov', href: 'github.com' },
         { icon: '💬', label: 'Telegram', value: 't.me/username', href: '#' },
-        { icon: '📱', label: 'WhatsApp', value: '+7 (XXX) XXX-XX-XX', href: 'https://wa.me/79991234567?text=Привет!%20Хочу%20обсудить%20проект' },
+        { icon: '📱', label: 'WhatsApp', value: '+7 (988) 208-61-66', href: 'https://wa.me/79882086166?text=Привет!%20Хочу%20обсудить%20проект' },
     ]
 
     return (
