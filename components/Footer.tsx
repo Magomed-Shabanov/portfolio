@@ -23,7 +23,7 @@ export default function Footer() {
             const body = encodeURIComponent(
                 `Имя: ${formData.name}\nEmail: ${formData.email}\n\nСообщение:\n${formData.message}`
             )
-            const mailtoLink = `maga-s-daga@mail.ru?subject=${subject}&body=${body}`
+            const mailtoLink = `mailto:maga-s-daga@mail.ru?subject=${subject}&body=${body}`
 
             // Открываем почтовый клиент через mailto
             // Используем динамический импорт для работы с window в клиентском компоненте
@@ -161,7 +161,7 @@ export default function Footer() {
                         </div>
 
                         <div className="text-gray-400 text-sm">
-                            <p>📧 hello@example.com</p>
+                            <p>📧 maga-s-daga@mail.ru</p>
                             <p className="mt-2">📱 +7 (988) 208-61-66</p>
                         </div>
                     </motion.div>
